@@ -8,9 +8,9 @@
 class register:
     version = 1.0
     commands = {
-        "test":"example.test",
-        "hi":"example.hi",
-        "head":"example.headget"
+        "test":"ExampleP.test",
+        "hi":"ExampleP.hi",
+        "head":"ExampleP.headget"
     }
 
 def test(api):
