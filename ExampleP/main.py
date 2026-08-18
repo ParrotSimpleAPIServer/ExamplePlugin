@@ -19,5 +19,5 @@ def test(api):
 def hi(api):
     return {'code':'200','data':'Hi','msg':"Everything is (200)ok"}
     
-def head(api):
+def headget(api):
     return api['client']['request']['head'].get('User-Agent')
